@@ -1,5 +1,6 @@
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
+import Home from "./pages/Home";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
           Hallo Sayang!
         </Typography>
       </Box>
+      <Home />
     </>
   );
 }
